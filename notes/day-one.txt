@@ -1,0 +1,46 @@
+Things to do:
+close read the GUI
+close read the terminal
+
+Things to make sure you say:
+$ means you're typing in terminal. >>> means Python
+Spaces and capitalization are meaningful
+The up arrow will generally pull up your last command
+Terminal and your GUI are related – if you make a file in terminal it will show up in the finder and vice versa.
+Command vs parameters
+
+Things to have them do - make a text file on their desktop
+make some files
+make a folder - put some files into it
+ls and pwd for life
+delete that folder
+
+Reading practice
+
+curl = copy url
+
+grab the text of this web page
+
+$ curl walshbr.com/materials/bode.txt 
+
+grab the text and send it to a file called bode.txt
+
+$ curl walshbr.com/materials/bode.txt > bode.txt
+
+get all of the text for bode
+
+$ cat bode.txt
+
+page through bode one page at a time
+
+$ less bode.txt
+
+search through the text for a word
+
+$ grep reading bode.txt
+
+count the instances of a particular word
+
+$ grep reading bode.txt -c
+
+discussion of Bode
